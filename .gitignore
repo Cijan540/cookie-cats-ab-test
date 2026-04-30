@@ -1,0 +1,42 @@
+# ============================================================
+# .gitignore for Cookie Cats A/B Test Project
+# ============================================================
+
+# Python
+__pycache__/
+*.py[cod]
+*.so
+.Python
+build/
+dist/
+*.egg-info/
+
+# Virtual environments
+venv/
+env/
+.venv/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Data
+data/processed/*.csv
+data/*.db-journal
+
+# OS junk
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# IDE
+.vscode/
+.idea/
+*.swp
+
+# Secrets
+.env
+*.pem
+*.key
+
+# Logs
+*.log
