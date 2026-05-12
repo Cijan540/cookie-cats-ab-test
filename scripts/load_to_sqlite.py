@@ -38,7 +38,8 @@ def main():
     conn.commit()
     print("Created index on userid")
 
-    # Quick verification - count rows in the database
+    # Quick verification - count rows in the 
+    # database
     cursor.execute("SELECT COUNT(*) FROM experiment_data")
     count = cursor.fetchone()[0]
     print(f"\nVerification: database contains {count:,} rows")
